@@ -1,0 +1,19 @@
+h3{
+    font-size: 30px;
+}
+
+.btn-success:hover{
+    background-color: darkblue;
+}
+
+canvas{
+    animation-name: Glow_sticks;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Glow_sticks{
+    from{box-shadow: 1px 1px 30px rgb(250, 148, 170);}
+    to{box-shadow: 1px 1px 30px rgb(247, 138, 241);}
+ 
+} 
